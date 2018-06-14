@@ -8,3 +8,4 @@ build/karma
 build/tests
 npm-debug.*
 node_modules
+build

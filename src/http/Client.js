@@ -1,5 +1,6 @@
 var isPlainObject = require("is-plain-object");
-var EventEmitter = require("events").EventEmitter;
+// var EventEmitter = require("events").EventEmitter;
+var EventEmitter = require('common-events').EventEmitter;
 var ApiResponse = require("./ApiResponse");
 var qs = require("querystring");
 
