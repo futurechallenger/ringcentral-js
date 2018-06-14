@@ -1,4 +1,4 @@
-var EventEmitter = require("events").EventEmitter;
+var EventEmitter = require("common-events").EventEmitter;
 var qs = require("querystring");
 var objectAssign = require('object-assign');
 var Auth = require("./Auth");

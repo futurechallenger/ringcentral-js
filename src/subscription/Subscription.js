@@ -1,4 +1,4 @@
-var EventEmitter = require("events").EventEmitter;
+var EventEmitter = require("common-events").EventEmitter;
 
 // detect ISO 8601 format string with +00[:00] timezone notations
 var ISO_REG_EXP = /(\+[\d]{2}):?([\d]{2})?$/;
